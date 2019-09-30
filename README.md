@@ -7,6 +7,7 @@ Thesis in Polish, the rest of the description (as well as the content in .tex fi
 # Jak uruchomić?
 Wystarczy sciągnąć repo i uruchomić w edytorze LaTeX-a. Przykładowo w https://overleaf.com - bezpłatnym edytorze online. 
 
+Skompilowana wersja pdf: [Praca_Dyplomowa_2020.pdf](Praca_Dyplomowa_2020.pdf)
 
 Plik główny: [00.tex](00.tex)
 
