@@ -1,8 +1,19 @@
-# praca_inzynierska_latex
-Szablon pracy inżynierskiej na Wydziale Informatyki i Zarządzania (bazujący na szablonie Wojciecha Myszki)
+# Bachelor Thesis Template
+Template for a BA thesis at the Faculty of Computer Science and Management of the Wroclaw University of Technology. Based on the template by [@WojciechThomas](https://github.com/WojciechThomas). Since this is a template for an BA Thesis in Polish, the rest of the description (as well as the content in .tex files) **will also be in Polish**
 
-W szablonie wykorzystałem elementy pochodzące z szablonów różnych autorów:
-- Wojciech Myszka - układ szablonu, klasa dokumentu itd. z Wydziału Mechanicznego
-- Damian Fafuła, Michał Kijaczko, Jakub Michalczak, Maciej Miśta, Dagmara Nowak, Tomasz Skalski, Wojciech Słomian - elementy strony tytułowej szablonu z Wydziału Matematyki
 
-- 
+# Jak uruchomić?
+Wystarczy sciągnąć repo i uruchomić w edytorze LaTeX-a. Przykładowo w https://overleaf.com - bezpłatnym edytorze online. 
+
+Plik główny to [00.tex](00.tex)
+
+Wszystkie \usepackage oraz ustawienia dostępne do edycji w pliku [000.tex](000.tex) 
+
+
+
+
+# Orginał
+
+https://github.com/WojciechThomas/praca_inzynierska_latex
+
+
