@@ -1,15 +1,6 @@
 \input{000}
 
-% Dane o pracy
-\author{Anna Nowak}
-\title{Kot Ali a Docker}
-\titlen{The Ala's cat and the Docker}
-\promotor{dr inż. Wojciech Thomas}
-%\konsultant{dr hab. inż. Kazimerz Kabacki}
-\wydzial{Wydział Informatyki i Zarządzania}
-\kierunek{Informatyka}
-\krotkiestreszczenie{W pracy przedstawiono projekt aplikacji służącej do komunikacji z kosmitami, wykorzystujący framework SpaceDirect i bazę danych NoMySQL}
-\slowakluczowe{kosmici, NoMySQL, SpaceDirect, aplikacja mobilna}
+\input{dane-o-pracy}
 
 \begin{document}
 
@@ -24,15 +15,7 @@
 \listoftables
 
 % --- Strona ze streszczeniem i abstraktem ------------------------------------------------------------------
-\chapter*{Streszczenie} % po polsku
-% Wprowadzenie
-Celem pracy było opracowanie aplikacji służącej do komunikacji z kosmitami. Dostępne na rynku aplikacj e nie satysfakcjonowały autorki ze względu na brak istotnych funkcji takich jak obsługa przez telefon z systemem Android.
-% Sposób rozwiązania problemu
-W ramach pracy przygotowano aplikację komunikacyjną wykorzystującą framework SpaceDirect, przechowującą dane kontaktów w bazie danych MyNoSQL oraz udostępniającą swoje funkcje przez interfejs REST API.
-% Dodatkowe informacji o pracy
-Oprócz projektu aplikacji praca zawiera wyniki testów jednostkowych oraz testów użyteczności przeprowadzonych przez krewnych i znajomych królika.
-% Podsumowanie
-Przygotowana w ramach projektu inżynierskiego praca może zostać wykorzystana przez wszystkie osoby zainteresowane kontaktami z cywilizacjami pozaziemskimi.
+\input{streszczenie}
 
 
 % Kilka sztuczek, żeby:
@@ -42,24 +25,22 @@ Przygotowana w ramach projektu inżynierskiego praca może zostać wykorzystana 
 \begingroup
 \renewcommand{\cleardoublepage}{}
 \renewcommand{\clearpage}{}
-\chapter*{Abstract} % ...i to samo po angielsku
-The main goal of this thesis was development of\dots (\textit{please translate remaining part of Streszczenie into English}).
+\input{abstract}
 \endgroup
 \addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
-% --- Koniec strony ze streszczeniem i abstraktem -----------------------------------------------------------
 
+% --- Koniec strony ze streszczeniem i abstraktem -----------------------------------------------------------
 
 
 % Rozdział dołączony z zewnątrz
 \input{wstep}
-
 
 \input{rozdzial1}
 
 \input{rozdzial2}
 
 
-\input{zakonczenie}
+\input{zz}
 
 \appendixpage
 \appendix
