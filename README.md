@@ -1,3 +1,5 @@
+# Bachelor-Thesis-Latex-Template
+
 Bachelor Thesis Template
 Template for a BA thesis at the Faculty of Computer Science and Management of the Wroclaw University of Technology. 
 Based on the template by [@WojciechThomas](https://github.com/WojciechThomas). Since this is a template for a BA 
